@@ -19,20 +19,22 @@ This API manages a list of books stored **in-memory** (no database required). Id
 - CORS enabled to allow simple frontend testing
 
 ---
+## 📁 Project Structure
 
-## Project Structure
+```
+
 books-api/
 │
 ├── controllers/
-│ └── booksController.js
+│   └── booksController.js
 │
 ├── routes/
-│ └── books.js
+│   └── books.js
 │
 ├── index.js
 ├── package.json
 └── README.md
-
+```
 
 
 ---
