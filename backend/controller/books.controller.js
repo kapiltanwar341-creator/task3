@@ -68,3 +68,4 @@ exports.deleteBook = (req, res) => {
   const [removed] = books.splice(index, 1);
   res.json({ message: 'Deleted', book: removed });
 };
+
